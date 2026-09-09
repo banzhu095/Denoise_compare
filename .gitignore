@@ -104,3 +104,20 @@ tensorboard/
 
 # Preserve empty-directory placeholders when an upstream project uses them.
 !**/empty.txt
+
+# Quarantined third-party archives. Unignore one project only after its exact
+# upstream revision, redistribution license and asset cleanup are documented.
+/0-TCFL-OCT-main/
+/1-Sparsity_SDOCT_Software_2012/
+/2-oct-denoising-techniques-main/
+/3-Wavelet-Transform-for-Image-Processing-master/
+/4-sn--article-master/
+/5-NLM/
+/Cluster_Based_Wiener_Filter-master/
+/DenoiSegOCT-main/
+/Image-De-noising-by-Various-Filters-for-Different-Noise-using-MATLAB-OCTAVE-master/
+/OCT-denoising-package-main/
+/OCT_DDPM-main/
+/Real-time-PMFN-master/
+/SDSR-OCT-master/
+/Self-supervised-3D-volume-OCT-images-denoise-main/
