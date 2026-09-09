@@ -1,0 +1,106 @@
+# This repository archives third-party OCT denoising implementations.
+# Keep source, licenses, READMEs and small algorithm assets; keep patient/data
+# copies, generated outputs, model weights and local environments outside Git.
+
+# OS and editor metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+**/.git/
+
+# Python / notebook caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+conda-env/
+*.egg-info/
+
+# MATLAB / native build products and transient downloads
+*.asv
+*.mex*
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+*.log
+*.tmp
+*.temp
+*.downloading
+*.gif
+*.pdf
+*.docx
+
+# Trained weights, caches and tensor dumps
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.h5
+*.hdf5
+*.npy
+*.npz
+checkpoints/
+ckpts/
+models/
+Models/
+model_zoo/checkpoints/
+
+# Raw/paired OCT data and large volume assets
+*.tif
+*.tiff
+*.raw
+*.rawb
+*.mnc
+**/Data/
+**/data/
+**/Datasets/
+**/datasets/
+**/OCT-clean/
+**/OCT-imgs/
+**/OCT-results/
+**/OCT-results*/
+**/OCT-results_*/
+**/OCT-results-o/
+**/OCT-results_o/
+**/test-noisy/
+**/train-clean/
+**/train-noisy/
+**/volumes/
+**/Metrics/rois*/
+**/saved_images/
+**/label_fusion
+
+# Generated predictions, figures, tables and run directories
+/000-all-figures/
+/000-all-results/
+/0501.csv
+/comparison_results_with_variance.csv
+/comparison_results_with_variance.xls
+/Image-De-noising-by-Various-Filters-for-Different-Noise-using-MATLAB-OCTAVE-master/images/
+result/
+results/
+Results/
+predictions/
+outputs/
+runs/
+wandb/
+tensorboard/
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
+# Preserve empty-directory placeholders when an upstream project uses them.
+!**/empty.txt
